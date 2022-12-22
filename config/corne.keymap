@@ -25,5 +25,6 @@
           &kp LSHIFT &none &none        &kp SPACE &none &none
                         >;
                 };
-                
+  };
+  
 };
