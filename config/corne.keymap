@@ -28,7 +28,7 @@
                 &kp LSHIFT &mo SUPER &mo CODE &kp SPACE &mo SQUARE &mo TRIANGLE
                         >;
                 };
-              /*  SUPER {
+                SUPER {
 
                         bindings = <
    &none &none &none &none &none &none        &none &none &none &none &none &none  
@@ -63,7 +63,7 @@
    &none &none &none &none &none &none        &none &none &none &none &bt BT_SEL 1 &none
                      &none &none &none        &none &none &mo TRIANGLE
                         >;
-                };              */
+                };              
   };
   
 };
