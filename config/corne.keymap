@@ -19,17 +19,9 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
-
-                        bindings = <
-    &none &kp Q &kp D &kp R &kp W &kp B           &kp J &kp F  &kp U     &kp P   &kp SEMI &none  
-    &none &kp A &kp S &kp H &kp T &kp G           &kp Y &kp N  &kp E     &kp O   &kp I &none   
-    &none &kp Z &kp X &kp M &kp C &kp V           &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &none
-                      &kp O &kp O &kp O           &kp O &kp O  &kp O
-                        >;
-                };
+            
                 
-           /*      default_layer2 {
+                default_layer2 {
 
                         bindings = <
    &none &kp Q &kp D &kp R &kp W &kp B        &kp J &kp F  &kp U     &kp P   &kp SEMI &none
@@ -74,7 +66,7 @@
   &none &none &none &none &none &none        &none &none &none &none &bt BT_SEL 1 &none
                      &none &none &none        &none &none &mo 4
                         >; 
-                };              */
+                };              
   };
   
 };
