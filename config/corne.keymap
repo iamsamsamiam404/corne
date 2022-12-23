@@ -8,11 +8,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define DEFAULT 0
-#define SUPER 1
-#define CODE 2
-#define SQUARE 3
-#define TRIANGLE 4
+#define DEFAULT 1
+#define SUPER 2
+#define CODE 3
+#define SQUARE 4
+#define TRIANGLE 5
 
 / {
 
