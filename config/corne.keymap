@@ -49,7 +49,7 @@
 
                         bindings = <
    &none &kp ESC &none &kp ENTER &none &none         &kp C_VOL_UP &none &kp LPAR &kp RPAR &none &none
-   &none &kp LALT &none &none &none &none            &kp C_MUTE   &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
+   &none &kp LALT &none &none &kp TAB &none            &kp C_MUTE   &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
    &none &kp LGUI &none &none &none &none            &kp C_VOL_DN &kp DEL &kp BSPC &none &kp RGUI &none
                      &none &none &mo 2         &none &none &none
                         >;
