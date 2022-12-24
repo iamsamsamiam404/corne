@@ -36,7 +36,7 @@
                 CIRCLE {
 
                         bindings = <
-   &none &none &kp MINUS &kp AMPS &kp f2 &kp EXCL        &kp PIPE &kp PG_UP &kp LS(MINUS) &kp PERCENT &none &none  
+   &none &none &kp MINUS &kp AMPS &kp F2 &kp EXCL        &kp PIPE &kp PG_UP &kp LS(MINUS) &kp PERCENT &none &none  
    &none &kp AT &kp STAR &kp HASH &kp PLUS &kp GRAVE     &kp TILDE &kp HOME &kp EQUAL &kp RS(SQT) &kp SQT &none
    &none &none &none &kp DLLR &kp CARET &kp F3          &tog 5 &kp PG_DN &kp LBKT &kp RBKT &kp BSLH &none 
                      &kp LSHIFT &mo 1 &none                   &none &none &none
