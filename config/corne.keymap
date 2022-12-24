@@ -29,7 +29,7 @@
    &none &kp Q &kp D &kp R &kp W &kp B        &kp J &kp F  &kp U     &kp P   &kp SEMI &none
    &none &kp A &kp S &kp H &kp T &kp G        &kp Y &kp N  &kp E     &kp O   &kp I &none
    &none &kp Z &kp X &kp M &kp C &kp V        &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &none
-                &mo HYPER &kp LSHIFT &mo CODE        &mo CIRCLE &mo SQUARE &mo TRIANGLE
+                &mo 1 &kp LSHIFT &mo 2        &lt 6 SPACE &mo 3 &mo 4
                         >;
                 };
                 
@@ -37,9 +37,9 @@
 
                         bindings = <
    &none &none &none &none &none &none        &none &none &none &none &none &none  
-   &none &none &none &none &none &none        &none &none &none &none &none &none
+   &none &none &none &none &kp A &none        &none &none &none &none &none &none
    &none &none &none &none &none &none        &none &none &none &none &none &none 
-                     &mo HYPER &none &none        &none &none &none
+                     &mo 1 &none &none        &none &none &none
                         >;
                 };
                 
@@ -51,7 +51,7 @@
    &none &kp ESC &none &kp ENTER &none &none         &kp C_VOL_UP &none &kp LPAR &kp RPAR &none &none
    &none &kp LALT &none &none &none &none            &kp C_MUTE   &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
    &none &kp LGUI &none &none &none &none            &kp C_VOL_DN &kp DEL &kp BSPC &none &kp RGUI &none
-                     &none &none &mo CODE         &none &none &none
+                     &none &none &mo 2         &none &none &none
                         >;
                 };
                 
@@ -61,7 +61,7 @@
    &none &none &kp N7 &kp N8 &kp N9 &none        &none &none &none &none &none &none
    &none &none &kp N4 &kp N5 &kp N6 &none        &none &none &none &none &none &none
    &none &none &kp N1 &kp N2 &kp N3 &none        &none &none &none &none &none &none
-                     &none &none &none        &none &mo SQUARE &none
+                     &none &none &none        &none &mo 3 &none
                         >;
                 };
                 
@@ -71,7 +71,7 @@
   &none &none &none &none &none &none        &none &none &none &none &bt BT_CLR  &none
   &none &none &none &none &none &none        &none &none &none &none &bt BT_SEL 0 &none
   &none &none &none &none &none &none        &none &none &none &none &bt BT_SEL 1 &none
-                     &none &none &none        &none &none &mo TRIANGLE
+                     &none &none &none        &none &none &mo 4
                         >; 
                 };  
                 FUNCTION {
@@ -79,7 +79,7 @@
                         bindings = <
    &none &none &kp F7 &kp F8 &kp F9 &kp F12        &none &none &none &none &none &none  
    &none &none &kp F4 &kp F5 &kp F6 &kp F11        &none &none &none &none &none &none
-   &none &none &kp F1 &kp F2 &kp F3 &kp F10        &tog FUNCTION &none &none &none &none &none 
+   &none &none &kp F1 &kp F2 &kp F3 &kp F10        &tog 5 &none &none &none &none &none 
                      &none &none &none        &none &none &none
                         >;
                 };
@@ -89,8 +89,8 @@
                         bindings = <
    &none &none &kp MINUS &kp AMPS &kp F2 &kp EXCL        &kp PIPE &kp PG_UP &kp LS(MINUS) &kp PERCENT &none &none  
    &none &kp AT &kp STAR &kp HASH &kp PLUS &kp GRAVE     &kp TILDE &kp HOME &kp EQUAL &kp RS(SQT) &kp SQT &none
-   &none &none &none &kp DLLR &kp CARET &kp F3           &tog FUNCTION &kp PG_DN &kp LBKT &kp RBKT &kp BSLH &none 
-                     &none &kp LSHIFT &none              &mo CIRCLE &none &none
+   &none &none &none &kp DLLR &kp CARET &kp F3           &tog 5 &kp PG_DN &kp LBKT &kp RBKT &kp BSLH &none 
+                     &none &kp LSHIFT &none              &mo 6 SPACE &none &none
                         >;
   };
   
