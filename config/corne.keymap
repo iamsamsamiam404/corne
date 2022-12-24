@@ -93,5 +93,5 @@
                      &none &kp LSHIFT &none              &mo 6 SPACE &none &none
                         >;
   };
-  
+  };
 };
